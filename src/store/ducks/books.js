@@ -22,7 +22,7 @@ export const INITIAL_STATE = Immutable({
   data: []
 });
 
-/* angiamente tínhamos algo como:
+/* old
   function reducer(state = INITIAL_STATE, action) {
     switch (action.type) {
       case 'LOAD_SUCCESS':

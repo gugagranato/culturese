@@ -1,7 +1,9 @@
-import axios from 'axios';
+/* eslint-disable quotes */
+/* eslint-disable prettier/prettier */
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'https://api.github.com',
+  baseURL: "https://10.0.3.2:3000",
 });
 
 export default api;
